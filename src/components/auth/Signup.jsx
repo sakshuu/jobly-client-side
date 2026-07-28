@@ -141,7 +141,7 @@ const Signup = () => {
                         <div className='flex items-center gap-2'>
                             <Label>Profile</Label>
                             <Input
-                                accept=".pdf,.doc,.docx"
+                                 accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.webp"
                                 type="file"
                                 onChange={changeFileHandler}
                                 className="cursor-pointer"
